@@ -1,0 +1,11 @@
+{
+  "name": "traditional-puzzle-event",
+  "version": "1.0.0",
+  "description": "14일간 진행되는 전통문화 슬라이딩 퍼즐 랭킹 이벤트",
+  "main": "index.html",
+  "scripts": {
+    "start": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>진안중평굿 슬라이딩 퍼즐 대회</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="hanji">
+
+<header>
+  <h1>진안중평굿 퍼즐 랭킹전</h1>
+  <p>14일간 진행 · 상위 5명 기념품 증정</p>
+</header>
+
+<section class="game-area">
+  <div id="puzzle"></div>
+
+  <div class="info">
+    <span>경과 시간: <strong id="timer">0</strong>초</span>
+  </div>
+</section>
+
+<section id="submitArea" class="hidden">
+  <h3>기록 등록</h3>
+  <form id="scoreForm">
+    <input type="text" id="name" placeholder="이름" required>
+    <input type="tel" id="phone" placeholder="연락처" required>
+
+    <label class="agree">
+      <input type="checkbox" id="agree" required>
+      개인정보 수집 및 이용에 동의합니다.
+      <a href="privacy.html" target="_blank">보기</a>
+    </label>
+
+    <button type="submit">기록 제출</button>
+  </form>
+</section>
+
+<section class="ranking">
+  <h3>실시간 TOP 5</h3>
+  <ul id="rankingList"></ul>
+</section>
+
+<script src="assets/js/timer.js"></script>
+<script src="assets/js/puzzle.js"></script>
+<script src="assets/js/submit.js"></script>
+<script src="assets/js/ranking.js"></script>
+
+</body>
+</html>

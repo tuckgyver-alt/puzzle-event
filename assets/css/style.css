@@ -1,0 +1,52 @@
+body.hanji {
+  background: url('../images/hanji-bg.jpg');
+  font-family: "Noto Serif KR", serif;
+  color: #2b2b2b;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+.game-area {
+  margin: 30px auto;
+}
+
+#puzzle {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 2px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #c5b48a;
+  cursor: pointer;
+  background-size: 400px 400px;
+}
+
+button {
+  background: #8b0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a30000;
+}
+
+.ranking ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
