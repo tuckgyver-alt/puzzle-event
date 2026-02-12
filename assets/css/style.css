@@ -50,3 +50,30 @@ button:hover {
 .hidden {
   display: none;
 }
+/* 제출 영역 */
+#submitArea form {
+  display: flex;
+  flex-direction: column;   /* 세로 정렬 */
+  gap: 12px;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+#submitArea input[type="text"],
+#submitArea input[type="tel"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #c5b48a;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#submitArea button {
+  margin-top: 10px;
+  font-size: 16px;
+}
+body {
+  max-width: 480px;   /* 모바일 기준 고정 */
+  margin: 0 auto;
+}
